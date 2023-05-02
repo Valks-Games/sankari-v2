@@ -2,6 +2,12 @@
   <img alt="Discord" src="https://img.shields.io/discord/1005979449340211240?color=black&label=Sankari&logo=Discord&logoColor=white">
 </p>
 
+<h4 align="center">
+  <a href="https://youtu.be/QddaW1QEVYc">Video of Gameplay</a>
+</h4>
+
+
+
 ## Setup
 Download and install the [latest Godot 4 C# release](https://godotengine.org/). Use the GitHub Desktop App to clone the repo with all its submodules.
 
