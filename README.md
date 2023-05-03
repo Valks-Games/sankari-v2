@@ -13,8 +13,6 @@ This project was created to gain experience in the C# Godot environment for the 
 
 The project will be considered complete when there is around 2 to 3 hours of fun and memorable content. Some of the major goals of the project include getting multiplayer to a playable state and making the code as flexible and as readable as possible.
 
-
-
 ## Setup
 Download and install the [latest Godot 4 C# release](https://godotengine.org/). Use the GitHub Desktop App to clone the repo with all its submodules.
 
@@ -24,6 +22,15 @@ Currently looking for programmers to peer review my code.
 [Projects Coding Style](https://github.com/Valks-Games/sankari/wiki/Code-Style)
 
 If you have any questions, talk to me over Discord (`va#9904`)
+
+## License
+### Project
+This project is under the [MIT license](https://github.com/Valks-Games/sankari/blob/main/LICENSE)
+
+### Assets
+- Most assets (art / audio) are under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) from [Open Game Art](https://opengameart.org/)
+- Some of the audio is from [Mixkit](https://mixkit.co/free-sound-effects/game-over/) under the Mixkit license
+- The networking library [ENet-CSharp](https://github.com/SoftwareGuy/ENet-CSharp) is under the [MIT license](https://github.com/SoftwareGuy/ENet-CSharp/blob/master/LICENSE)
 
 ## Credit
 Thank you to the following wonderful people that helped make this project something even better
