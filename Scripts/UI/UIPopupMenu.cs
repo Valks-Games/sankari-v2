@@ -1,4 +1,4 @@
-namespace Template;
+namespace Sankari;
 
 public partial class UIPopupMenu : Control
 {

@@ -1,4 +1,4 @@
-namespace Template;
+namespace Sankari;
 
 public static class Prefabs
 {

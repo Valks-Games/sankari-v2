@@ -1,4 +1,4 @@
-namespace Template.Platformer2D;
+namespace Sankari.Platformer2D;
 
 public partial class Player : CharacterBody2D
 {

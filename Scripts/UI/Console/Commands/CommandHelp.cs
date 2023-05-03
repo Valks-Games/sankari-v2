@@ -1,4 +1,4 @@
-﻿namespace Template;
+﻿namespace Sankari;
 
 using System.Reflection;
 

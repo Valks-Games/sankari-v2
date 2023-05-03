@@ -1,4 +1,4 @@
-namespace Template;
+namespace Sankari;
 
 public partial class UIMainMenu : Node
 {
@@ -21,7 +21,7 @@ public partial class UIMainMenu : Node
     }
 
     private void _on_discord_pressed() => OS.ShellOpen("https://discord.gg/866cg8yfxZ");
-    private void _on_github_pressed() => OS.ShellOpen("https://github.com/ValksGodotTools/Template");
+    private void _on_github_pressed() => OS.ShellOpen("https://github.com/ValksGodotTools/Sankari");
 
     private void _on_quit_pressed()
     {

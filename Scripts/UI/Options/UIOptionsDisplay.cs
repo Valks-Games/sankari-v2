@@ -1,6 +1,6 @@
 using static Godot.DisplayServer;
 
-namespace Template;
+namespace Sankari;
 
 public partial class UIOptionsDisplay : Control
 {
