@@ -2,12 +2,12 @@ namespace Sankari.Platformer2D;
 
 public partial class Player : CharacterBody2D
 {
-    private float MaxSpeed      { get; } = 500;
-    private float Acceleration  { get; } = 40;
-    private float Friction      { get; } = 20;
-    private float Gravity       { get; } = 20;
-    private float JumpForce     { get; } = 100;
-    private float JumpLoss      { get; } = 7.5f;
+    private float maxSpeed = 400;
+    private float acceleration = 40;
+    private float friction = 20;
+    private float gravity = 20;
+    private float jumpForce = 100;
+    private float jumpLoss = 7.5f;
 
     private float jumpLossBuildUp;
     private bool holdingJumpKey;
@@ -28,21 +28,21 @@ public partial class Player : CharacterBody2D
         var vel = Velocity;
 
         // Horizontal movement
-        vel.X += horzDir * Acceleration;
-        vel.X = Utils.ClampAndDampen(vel.X, Friction, MaxSpeed);
+        vel.X += horzDir * acceleration;
+        vel.X = Utils.ClampAndDampen(vel.X, friction, maxSpeed);
 
         // Jump
         if (Input.IsActionJustPressed("jump") && AreRaycastsTouching("Floor"))
         {
             holdingJumpKey = true;
             jumpLossBuildUp = 0;
-            vel.Y -= JumpForce;
+            vel.Y -= jumpForce;
         }
 
         if (Input.IsActionPressed("jump") && holdingJumpKey)
         {
-            jumpLossBuildUp += JumpLoss;
-            vel.Y -= Mathf.Max(0, JumpForce - jumpLossBuildUp);
+            jumpLossBuildUp += jumpLoss;
+            vel.Y -= Mathf.Max(0, jumpForce - jumpLossBuildUp);
         }
 
         if (Input.IsActionJustReleased("jump"))
@@ -51,7 +51,7 @@ public partial class Player : CharacterBody2D
         }
 
         // Gravity
-        vel.Y += Gravity;
+        vel.Y += gravity;
 
         Velocity = vel;
         MoveAndSlide();
