@@ -6,6 +6,8 @@
   <a href="https://youtu.be/QddaW1QEVYc">Video of Gameplay</a>
 </h4>
 
+# Development of Sankari v2 currently on hold as I am working on my own game right now :)
+
 ## What is Sankari?
 Sankari ("hero" in Finnish) is a non-profit F2P 2D Platformer about a hero whose village gets raided by the evil king. The hero goes on a journey to free back the villagers that were captured and defeat the evil king. 
 
