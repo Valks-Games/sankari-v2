@@ -1,3 +1,5 @@
+## I changed my mind, I'll merge Sankari v2 into the Sankari repo and just delete this repo. 
+
 <p align="center">
   <img alt="Discord" src="https://img.shields.io/discord/1005979449340211240?color=black&label=Sankari&logo=Discord&logoColor=white">
 </p>
